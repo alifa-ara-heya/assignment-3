@@ -43,7 +43,8 @@
 
 <body class="manrope">
     <header class=" bg-slate-50">
-        <nav class="container mx-auto">
+        <!-- nav section -->
+        <nav class="container mx-auto px-5 md:p-0">
             <div class="navbar">
                 <div class="navbar-start space-x-3">
                     <i
@@ -89,10 +90,10 @@
         </nav>
 
         <!-- banner section -->
-        <div class="container mx-auto p-3 pb-20 ">
-            <div class="flex flex-col items-center space-y-6">
-                <div><img src="./assets/banner.png" alt="" class=""></div>
-                <h2 class="text-3xl md:text-4xl lg:text-6xl font-extrabold text-center">
+        <div class="container mx-auto px-6 md:p-0 pb-16">
+            <div class="flex flex-col items-center space-y-6 lg:p-7">
+                <div><img src="./assets/banner.png" alt="" class="w-3/4 mx-auto lg:w-full"></div>
+                <h2 class="text-2xl md:text-3xl lg:text-6xl font-extrabold text-center">
                     A barn house of this design has a striking appearance
                 </h2>
                 <p class="text-[14px] md:text-base text-slate-600 font-medium text-center lg:w-3/4">The barn house captivates
@@ -111,34 +112,36 @@
 
 
     <main class="bg-gray-100">
-        <div class="flex flex-col lg:flex-row gap-10 container mx-auto p-4 lg:p-16">
-            <div class="space-y-6 lg:w-3/5">
-                <button class="p-2 px-5 bg-white rounded-full text-gray-800 font-bold"><i class="fa-solid fa-arrow-right mr-3"></i>About Us</button>
-                <h3 class="text-2xl md:text-3xl lg:text-4xl font-extrabold text-center lg:text-left">We design thoughtful, liveable spaces</h3>
-                <p class="text-center lg:text-left">The barn house captivates with its blend of rustic charm and
+
+        <!-- About us section -->
+        <div class="flex flex-col lg:flex-row gap-10 container mx-auto px-5 py-14 md:px-0">
+            <div class="flex flex-col space-y-6 lg:space-y-12 lg:w-3/5">
+                <div class="text-center lg:text-left"><button class="p-2 px-5 bg-white rounded-full text-gray-800 font-bold"><i class="fa-solid fa-arrow-right mr-3"></i>About Us</button></div>
+                <h3 class="text-2xl md:text-3xl lg:text-4xl font-extrabold text-center lg:text-left">We design thoughtful,<br> liveable spaces</h3>
+                <p class="text-center lg:text-left lg:w-3/4">The barn house captivates with its blend of rustic charm and
                     modern sophistication, featuring weathered wood, sleek metal accents.</p>
-                <div class="flex bg-slate-50 p-5 gap-6 rounded-2xl">
-                    <img src="./assets/commercial.png" alt="">
+                <div class="flex lg:items-center items-start bg-slate-50 p-5 gap-6 rounded-2xl">
+                    <div><img src="./assets/commercial.png" alt="" class="w-full"></div>
                     <div>
                         <h4 class="text-xl text-slate-600 font-extrabold mb-3">Commercial</h4>
-                        <p class="opacity-80 ">The barn house captivates with its blend of rustic charm and modern.</p>
+                        <p class="opacity-80 lg:w-3/4">The barn house captivates with its blend of rustic charm and modern.</p>
                     </div>
                 </div>
-                <div class="flex bg-slate-50 p-5 gap-6 rounded-2xl">
-                    <img src="./assets/residential.png" alt="">
+                <div class="flex lg:items-center bg-slate-50 p-5 gap-6 rounded-2xl">
+                    <div><img src="./assets/residential.png" alt=""></div>
                     <div>
                         <h4 class="text-xl text-slate-600 font-extrabold mb-3">Residential</h4>
-                        <p class="opacity-80 ">The barn house captivates with its blend of rustic charm and modern.</p>
+                        <p class="opacity-80 lg:w-3/4 ">The barn house captivates with its blend of rustic charm and modern.</p>
                     </div>
                 </div>
             </div>
-s
+
             <div class="flex items-stretch">
                 <img src="./assets/Rectangle.png" class="w-full object-cover rounded-xl" alt="">
             </div>
         </div>
     </main>
-    <footer>
+    <footer class="h-[500px]">
         
     </footer>
 </body>
