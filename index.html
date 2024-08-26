@@ -40,6 +40,9 @@
               green: "#A4DAC3",
               blue: "#77AAEA",
             },
+            backgroundImage: {
+              paper: "url('./assets/bg.jpg')",
+            },
           },
         },
       };
@@ -62,7 +65,7 @@
   <body class="manrope">
     <header class="">
       <!-- nav section -->
-      <nav class="container mx-auto pl-3 ">
+      <nav class="container mx-auto pl-3">
         <div class="navbar">
           <div class="navbar-start space-x-3">
             <i
@@ -187,7 +190,7 @@
             The barn house captivates with its blend of rustic charm and modern
             sophistication, featuring weathered wood, sleek metal accents.
           </p>
-          <div class="md:flex lg:flex-col gap-6 space-y-6 md:space-y-0">
+          <div class="md:flex lg:flex-col gap-6 space-y-6 md:space-y-0 ">
             <!-- commercial card -->
             <div
               class="flex lg:items-center items-start bg-white p-6 gap-6 rounded-2xl"
@@ -478,7 +481,7 @@
           <h3 class="text-2xl md:text-3xl lg:text-4xl font-extrabold">
             Read Our Articles and News
           </h3>
-          <p class="lg:w-1/2 mx-auto font-medium">
+          <p class="lg:w-1/2 mx-auto font-medium pb-10">
             The barn house captivates with its blend of rustic charm and modern
             sophistication, featuring weathered wood, sleek metal accents.
           </p>
@@ -488,7 +491,9 @@
 
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
           <!-- artcile card 1 -->
-          <div class="border rounded-3xl p-6 bg-white flex flex-col md:flex-row lg:flex-col md:gap-6">
+          <div
+            class="border rounded-3xl p-6 bg-white flex flex-col md:flex-row lg:flex-col md:gap-6"
+          >
             <img src="./assets/article1.png" alt="" class="" />
             <!-- article card text container -->
             <div class="space-y-3 mt-6">
@@ -524,7 +529,9 @@
           </div>
 
           <!-- article card 2 -->
-          <div class="border rounded-3xl p-6 bg-white flex flex-col md:flex-row lg:flex-col md:gap-6">
+          <div
+            class="border rounded-3xl p-6 bg-white flex flex-col md:flex-row lg:flex-col md:gap-6"
+          >
             <img src="./assets/article2.png" alt="" class="" />
             <!-- article card text container -->
             <div class="space-y-3 mt-6">
@@ -560,7 +567,9 @@
           </div>
 
           <!-- article card 3 -->
-          <div class="border rounded-3xl p-6 bg-white flex flex-col md:flex-row lg:flex-col md:gap-6">
+          <div
+            class="border rounded-3xl p-6 bg-white flex flex-col md:flex-row lg:flex-col md:gap-6"
+          >
             <img src="./assets/article3.png" alt="" class="" />
             <!-- article card text container -->
             <div class="space-y-3 mt-6">
@@ -596,8 +605,113 @@
           </div>
         </div>
       </div>
+
+      <!-- form section -->
+      <div class="bg-paper bg-cover bg-no-repeat border-8 border-white border-">
+        <div class="container mx-auto px-5 py-12 lg:px-28 lg:py-24">
+          <!-- form text content -->
+          <div class="text-center space-y-4 md:space-y-6 pb-12">
+            <button
+              class="p-2 px-5 bg-primary-color/40 rounded-full text-gray-800 font-bold"
+            >
+              <i class="fa-solid fa-arrow-right mr-3"></i>Let’s Connect
+            </button>
+            <h3 class="text-2xl md:text-3xl lg:text-4xl font-extrabold">
+              Let’s Discuss Next Project
+            </h3>
+            <p class="lg:w-1/2 mx-auto font-medium">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+          </div>
+
+          <!-- form container -->
+          <form action="" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <input
+              type="text"
+              class="p-5 py-4 md:py-5 rounded-full font-medium"
+              placeholder="First Name*"
+            />
+            <input
+              type="text"
+              class="p-5 py-4 md:py-5 rounded-full font-medium"
+              placeholder="Last Name*"
+            />
+            <input
+              type="text"
+              class="p-5 py-4 md:py-5 rounded-full font-medium"
+              placeholder="Phone Number*"
+            />
+            <input
+              type="text"
+              class="p-5 py-4 md:py-5 rounded-full font-medium"
+              placeholder="Email Number*"
+            />
+            <textarea
+              name=""
+              id=""
+              placeholder="Write your message here"
+              class="p-5 py-4 md:py-5 rounded-3xl font-medium md:col-span-2 resize-none"
+              rows="8"
+            ></textarea>
+            <button
+              class="p-5 py-4 md:py-5 rounded-full font-extrabold md:text-xl md:col-span-2 bg-primary-color"
+            >
+              Send Mail
+              <i
+                class="fa-solid fa-arrow-right bg-black rounded-full p-1.5 opacity-100 -rotate-45 text-white hover:text-gray-700 hover:bg-white ml-2"
+              ></i>
+            </button>
+          </form>
+        </div>
+      </div>
     </main>
 
-    <footer class="h-[500px]"></footer>
+    <footer class="bg-black text-white">
+      <div class="container mx-auto px-7 py-12 lg:px-28 lg:py-24">
+        <!-- footer text content -->
+        <div class="text-center space-y-4 md:space-y-6 pb-10 md:pb-12">
+          <h2 class="flex justify-center items-center">
+            <i
+              class="fa-solid fa-arrow-right bg-primary-color p-1 md:p-2 rounded-full hover:bg-lime-800 mr-2 text-black -rotate-45"
+            ></i>
+            <a
+              class="text-3xl lg:text-4xl font-extrabold hover:text-slate-600 cursor-pointer"
+              >Rinterio</a
+            >
+          </h2>
+
+          <p class="lg:w-1/2 mx-auto font-medium text-gray-500">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+        </div>
+
+        <!-- footer links -->
+        <ul
+          class="flex flex-col md:flex-row gap-6 md:gap-16 lg:gap-28 justify-center items-center font-medium text-gray-300"
+        >
+          <li><a href="">Home</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+
+        <div class="text-center py-10 md:py-14">
+          <button
+            class="p-3 px-5 rounded-3xl bg-primary-color text-xl text-black hover:bg-slate-500 hover:text-white  w-full md:w-auto"
+          >
+            <span class="font-extrabold">Book Consult</span>
+            <i
+              class="fa-solid fa-arrow-right bg-black text-white rounded-full p-1.5 -rotate-45 cursor-pointer hover:bg-slate-600 hover:text-white"
+            ></i>
+          </button>
+        </div>
+
+
+      </div>
+    </footer>
   </body>
 </html>
